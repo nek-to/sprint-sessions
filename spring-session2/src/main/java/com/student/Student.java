@@ -1,5 +1,7 @@
 package com.student;
 
+import org.springframework.stereotype.Component;
+
 public class Student {
     private int i;
     private String name;

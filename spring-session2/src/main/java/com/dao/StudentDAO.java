@@ -1,9 +1,11 @@
 package com.dao;
 
 import com.student.Student;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 
+@Component
 public class StudentDAO {
 
     public List<Student> getStudentsList() {
